@@ -28,10 +28,10 @@ const Project = () => {
         await dispatch(addProject(title,url,image,description,techStack));
         dispatch(getUser());
     }
-    const deleteHandler = async (id)=>{
-        await dispatch(deleteProject(id)) ;
-        dispatch(getUser());
-    }
+    // const deleteHandler = async (id)=>{
+    //     await dispatch(deleteProject(id)) ;
+    //     dispatch(getUser());
+    // }
 
     const handleImage = (e)=>{
         const file=e.target.files[0];

@@ -4,7 +4,7 @@ import { useAlert } from 'react-alert';
 import { MdKeyboardBackspace } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { addProject, deleteProject, getUser } from '../../actions/user';
+import { addProject, getUser } from '../../actions/user';
 import { ProjectCard } from '../Projects/Projects';
 
 const Project = () => {

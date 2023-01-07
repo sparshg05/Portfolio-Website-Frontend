@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = 'https://portfoliobackend-iota.vercel.app/';
+const url = 'https://portfoliobackend-iota.vercel.app';
 
 export const getUser = () => async(dispatch)=>{
     try{
